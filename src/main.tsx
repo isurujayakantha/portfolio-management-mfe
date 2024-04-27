@@ -1,10 +1,18 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import ReactDOM from 'react-dom/client' 
+import './assets/css/index.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import PortfolioSummary from './pages/PortfolioSummary'
+import NotFound from './pages/NotFound'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+     <Routes>
+        <Route path="/" element={<PortfolioSummary/>}> </Route>
+        <Route path="/notFound" element={<NotFound/>}> 
+        </Route>
+      </Routes>
+  </BrowserRouter>
   </React.StrictMode>,
 )
