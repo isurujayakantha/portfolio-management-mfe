@@ -1,7 +1,7 @@
 # Portfolio-management-mfe (React + TypeScript + Vite + antd)
 
 Screenshot of project :
-<img width="917" alt="image" src="https://github.com/isurujayakantha/portfolio-management-mfe/assets/11402655/99c2d8ed-f5a9-44d4-9060-885f5a74504d">
+<img width="956" alt="image" src="https://github.com/isurujayakantha/portfolio-management-mfe/assets/11402655/0eaf4804-96af-400b-a29f-ad452bbbe12c">
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
